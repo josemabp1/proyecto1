@@ -1,7 +1,7 @@
 import os
 import sys
 
-path = os.path.expanduser('~/jmbejarano/proyecto1 ')
+path = os.path.expanduser('~/jmbejarano/proyecto1')
 if path not in sys.path:
     sys.path.insert(0, path)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'proyecto1.settings'
